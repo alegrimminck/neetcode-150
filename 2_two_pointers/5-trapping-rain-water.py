@@ -1,3 +1,5 @@
+from types import List
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         prefix = [0]
