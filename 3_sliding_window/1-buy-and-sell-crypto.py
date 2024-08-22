@@ -1,3 +1,5 @@
+from types import List
+
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         lowest = prices[0]
